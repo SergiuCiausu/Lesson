@@ -1,0 +1,113 @@
+.dashboard-container {
+    background-color: var(--light-gray);
+}
+
+.sidebar-container {
+    width: var(--sidebar-container-width);
+    height: calc(100vh - var(--dashboard-navbar-height));
+    background-color: white;
+    border-right: var(--dashboard-border-container);
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.dashboard-navbar {
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    height: var(--dashboard-navbar-height);
+    border-bottom: var(--dashboard-border-container);
+}
+
+.dashboard-navbar-top-left-container {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    padding: 16px 20px;
+    align-items: center;
+    gap: 10px;
+    border-right: var(--dashboard-border-container);
+}
+
+.sidebar-btn {
+    min-width: fit-content;
+    font-family: var(--primary-font);
+    color: white;
+    font-size: var(--title-size);
+    background-color: var(--primary-color);
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: var(--btn-hover);
+}
+
+
+.sidebar-btn:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.previous-step-btn {
+    font-family: var(--primary-font);
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.create-project-sidebar-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-main-container {
+    width: calc(100vw - var(--sidebar-container-width));
+    height: calc(100vh - var(--dashboard-navbar-height));
+    z-index: 1;
+    padding: 32px;
+}
+
+.empty-dashboard-main-btn {
+    background-color: var(--primary-color);
+    padding: 16px 24px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-family: var(--primary-font);
+    color: white;
+    font-size: var(--hero-btn-size);
+    transition: var(--btn-hover);
+}
+
+.empty-dashboard-main-btn:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.empty-dashboard-main-p {
+    font-size: 32px;
+}
+
+.detail-p {
+    font-family: var(--primary-font);
+    color: var(--dark-gray);
+    font-size: 12px;
+}
+
+.tab-container {
+    width: var(--sidebar-container-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-right: var(--dashboard-border-container)
+}
+
+.tab-container-active {
+    border: 2px solid var(--primary-color);
+    padding: 13px 16px 14px;
+}

@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.0.1",
+    "@prisma/client": "^7.0.1",
+    "@prisma/internals": "^7.0.1",
+    "cookie-session": "^2.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "google-auth-library": "^10.5.0",
+    "mammoth": "^1.11.0",
+    "multer": "^2.0.2",
+    "openai": "^6.9.1",
+    "pdf-extraction": "^1.0.2",
+    "pdf-parse": "^2.4.5",
+    "pdfjs-dist": "^5.4.394",
+    "pptx2json": "^0.0.10",
+    "prisma": "^7.0.1",
+    "session": "^0.1.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
