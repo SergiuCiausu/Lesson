@@ -1,6 +1,6 @@
 const Login = () => {
   const handleLogin = async () => {
-    window.location.href = import.meta.env.VITE_REDIRECT_URI;
+    window.location.href = `http://localhost:3000/auth/google`;
   };
 
   return (
