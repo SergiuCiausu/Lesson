@@ -1,6 +1,6 @@
 const Login = () => {
   const handleLogin = async () => {
-    window.location.href = `https://lesson-srg.netlify.app/auth/google/callback`;
+    window.location.href = import.meta.env.VITE_REDIRECT_URI;
   };
 
   return (
