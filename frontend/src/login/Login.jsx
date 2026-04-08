@@ -1,6 +1,6 @@
 const Login = () => {
   const handleLogin = async () => {
-    window.location.href = `http://localhost:3000/auth/google`;
+    window.location.href = `https://lesson-srg.netlify.app/auth/google/callback`;
   };
 
   return (
